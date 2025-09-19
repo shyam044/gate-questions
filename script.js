@@ -1,7 +1,4 @@
 let topic=document.getElementById("topics");
-
-
-
 let algo_topic = document.getElementById("algorithmtopics");
 let container = document.getElementById("algo-container");
 
@@ -46,3 +43,23 @@ click2.onclick=function()
 {
     ds_topic.classList.remove("d-none");
 }
+
+
+
+let dbms_topic = document.getElementById("dbmstopics");
+let dbms_container = document.getElementById("dbms-container");
+
+// Initially hide the topics
+dbms_topic.classList.add("d-none");
+
+// Show on hover of entire container (button + topics)
+dbms_container.addEventListener("mouseenter", function () {
+    dbms_topic.classList.remove("d-none");
+});
+
+// Hide when mouse leaves the container
+dbms_container.addEventListener("mouseleave", function () {
+    dbms_topic.classList.add("d-none");
+});
+
+
