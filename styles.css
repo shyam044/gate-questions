@@ -1,46 +1,70 @@
-.navbar-image {
-  width: 40px;
-  height: 40px;
-  padding: 5px;
+body {
+  background: linear-gradient(to right, #e0f7fa, #e0f7fa);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.card 
-{
-  background-color:azure;
+
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-.centering 
-{
-  text-align:center;
+
+.topic-header {
+  padding-bottom: 1rem;
 }
-.topic-size 
-{
-  height:25vh;
-  width:50vw;
-  font-size:xx-large;
-  font-weight:bold;
+
+.topic-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #007b5e;
 }
-.topic-shift 
-{
-  margin-right:8vw;
-  margin-top: 5vw;
-  font-size:xx-large;
-  font-weight:bold;
-  color:green;
+
+.toggle-btn {
+  margin-top: 0.5rem;
 }
-.sub-topic-shift 
-{
-  margin-left:40vw;
-  font-size:xx-large;
+
+.sub-topic {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.sub-button 
-{
-  height:12vh;
-  font-size:xx-large;
-  font-weight:bold;
-  text-align:center;
-  margin-bottom:20px;
+
+.topic-link {
+  width: 80%;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
-.bordering 
-{
-  border-radius:90vw;
-  margin-left:5vw;
+
+.topic-link:hover {
+  transform: scale(1.05);
+}
+
+.nested-topic {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nested-link {
+  width: 70%;
+  margin: 5px 0;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.nested-link:hover {
+  transform: scale(1.04);
+  background-color: #28a745;
+  color: #fff;
+}
+
+.sub-toggle {
+  margin-top: 10px;
+  font-weight: bold;
 }
