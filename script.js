@@ -24,9 +24,12 @@ toggleSection('clickds', 'DStopics');
 toggleSection('clickdbms', 'dbmstopics');
 toggleSection('clickcn', 'cntopics');
 toggleSection('clickcompiler', 'compilertopics');
+toggleSection('clickboolean', 'booleantopics');
 
 toggleNested('greedyapproach', 'greedytopic');
 toggleNested('dynamicprogramming', 'dynamictopic');
+
+
 
 
 
